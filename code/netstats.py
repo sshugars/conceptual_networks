@@ -49,7 +49,7 @@ def network_stats(G):
 
 
     stats = dict((('node_count', node_count),
-                  ('edge_count',edge_count),
+                  ('edge_count', edge_count),
                   ('clustering', clustering),
                   ('giant component', giant_component_percent),
                   ('disssortativity', disassortativity),

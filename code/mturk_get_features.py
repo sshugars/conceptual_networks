@@ -2,8 +2,6 @@ import os
 import json
 import pandas as pd
 import networkx as nx
-
-print('Importing language model. This will take a few minutes.')
 import netstats
 import parse
 

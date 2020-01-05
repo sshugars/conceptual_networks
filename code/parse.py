@@ -8,6 +8,8 @@ from gensim.models import KeyedVectors
 from spacy.lemmatizer import Lemmatizer
 from spacy.lookups import Lookups
 
+print('Importing language model. This will take a few minutes.')
+
 lookups = Lookups()
 lemmatizer = Lemmatizer(lookups)
 nlp = spacy.load('en_core_web_sm')
