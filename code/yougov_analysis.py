@@ -309,7 +309,7 @@ def write_results(results):
             accuracy = result_dict['accuracy']
             confusion = result_dict['confusion']
             
-            fp.write('Results: Model %s (%.3f\\%% accuracy).\n' %(i, accuracy))
+            fp.write('Results: Model %s (%.3f\\%% accuracy).\n' % (i, accuracy))
             fp.write(result.summary().as_latex())
             
             fp.write('\\vspace{.5em}\n')
