@@ -40,7 +40,7 @@ def network_stats(G):
     if k_std == 0: #if degrees equal
         assortativity = 1
     else:
-        assortativity = nx.degree_pearson_correlation_coefficient(G)
+        assortativity = nx.degree_assortativity_coefficient(G)
 
     if np.isnan(assortativity):
         assortativity = 0
