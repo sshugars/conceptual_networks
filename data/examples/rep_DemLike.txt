@@ -1,0 +1,15 @@
+nodes=[
+	agree
+	least
+	pusche
+	record
+	washington
+	dc
+	strong
+]
+edges=[
+	[strong, record, 1]
+	[washington, dc, 1]
+	[dc, strong, 1]
+	[record, strong, -1]
+	[least, agree, -1]

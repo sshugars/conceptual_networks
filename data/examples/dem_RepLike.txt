@@ -1,0 +1,12 @@
+nodes=[
+	presidential
+	see
+	person
+	bad
+	just
+	s
+]
+edges=[
+	[bad, person, 1]
+	[person, s, 1]
+	[just, presidential, -1]

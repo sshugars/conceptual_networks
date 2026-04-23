@@ -1,0 +1,30 @@
+nodes=[
+	president
+	positive
+	think
+	detail
+	family
+	have
+	redacted
+	good
+	model
+	alternative
+	experience
+	woman
+	rational
+	role
+]
+edges=[
+	[experience, have, 1]
+	[good, president, 1]
+	[president, think, 1]
+	[redacted, detail, 1]
+	[family, detail, 1]
+	[detail, have, 1]
+	[think, have, 1]
+	[have, think, 1]
+	[woman, president, 1]
+	[president, have, 1]
+	[positive, model, 1]
+	[role, model, 1]
+	[model, think, 1]
