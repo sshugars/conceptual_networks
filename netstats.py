@@ -52,7 +52,7 @@ def network_stats(G):
                   ('edge_count', edge_count),
                   ('clustering', clustering),
                   ('giant component', giant_component_percent),
-                  ('disssortativity', disassortativity),
+                  ('dissortativity', disassortativity),
                   ('k avg', k_avg),
                   ('k std', k_std),
                   ('entropy', entropy),
